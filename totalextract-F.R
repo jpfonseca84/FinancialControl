@@ -1,17 +1,27 @@
 #Sum of expenses per category in the period
-totalextract <- function(f.date = today(),
+totalextract <- function(f.date.start = today(),
+                         f.date.stop= today(),
                          f.numofcat = NULL,
                          f.fileaddress = "C:\\Users\\jpfon\\Google Drive\\Pessoal\\Documentos\\FinancialControl\\totalcostsfile") {
       
-      ##Coherce f.date as a Date class object in case it's a text
-      if(is.character(f.date)) {
-            f.date <- ymd(f.date)
+##Coherce f.dates as a Date class object in case it's a text
+      if(is.character(f.date.start)) {
+            f.date.start <- ymd(f.date.start)
+      }
+      if(is.character(f.date.stop)) {
+            f.date.stop <- ymd(f.date.stop)
       }
       
-      #Define the oldest date to search
-      day(f.date) <- 1
+#define the dates -------------
+      day(f.date.start) <- 1#Define the initial start date to search
       
-      #ORGANIZE THE FILE----------------
+      if (month(f.date.stop) != 12) { #proceeding if not december
+            month(f.date.stop) <- month(f.date.stop) + 1
+            day(f.date.stop) <-1 #define it as 1
+            day(f.date.stop) <- day(f.date.stop)- 1#point it to monthend
+      }
+      
+#ORGANIZE THE FILE----------------
       
       #obtain the file Totalcostfiles
       tempframe <- read.csv(file = f.fileaddress)
@@ -23,7 +33,7 @@ totalextract <- function(f.date = today(),
       tempframe$date <- as.Date(tempframe$date)
       
       #create the specific tempframe for the answer
-      tempframe <- tempframe[tempframe$date >= f.date, ]
+      tempframe <- tempframe[tempframe$date >= f.date.start, ]
       
       #adjusting levels of tempframe
       tempframe$category <-
@@ -33,18 +43,23 @@ totalextract <- function(f.date = today(),
       if (is.null(f.numofcat)) {
             f.numofcat <- length(levels(tempframe$category))
       }
-      
-      ####Return of error --------------------
+
+      #The vector of values to be printed
+      values.to.print <- sort(tapply(tempframe$value,
+                                     tempframe$category,
+                                     sum),
+                              decreasing = T)[1:f.numofcat]
+####Return of error --------------------
       if (nrow(tempframe) == 0) {
             stop("No information in the selected period")
       }
-      #Return Answer ------------------
-      else{
-            return(barplot(sort(
-                  tapply(tempframe$value,
-                         tempframe$category,
-                         sum),
-                  decreasing = T)[1:f.numofcat]))
+#Return Answer ------------------
+
+            theplot<-barplot(values.to.print,
+                             names.arg=names(values.to.print))
+            legend("topright",
+                   legend = c(paste("Start ",f.date.start),
+                         paste("Stop ", f.date.stop)))
+      return(theplot)
       }
-      
-}
+
