@@ -1,12 +1,12 @@
 add.expense <-
-      function(category,
-               type = NA,
-               value,
-               place = NA,
-               date = as.character(Sys.Date()),
-               fileaddress ="C:\\Users\\jpfon\\Google Drive\\Pessoal\\Documentos\\FinancialControl\\totalcostsfile"){
+      function(f.category,
+               f.type = NA,
+               f.value,
+               f.place = NA,
+               f.date = as.character(Sys.Date()),
+               f.fileaddress ="C:\\Users\\jpfon\\Google Drive\\Pessoal\\Documentos\\FinancialControl\\totalcostsfile"){
 
-            #Merging original data with inputted data
+            #Merging original data with input data
             tempframeA <-read.csv(file = fileaddress)
             tempframeB <- cbind(category, type, value, date, place)
             tempframe <- rbind(tempframeA, tempframeB)
