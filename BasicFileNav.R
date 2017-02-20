@@ -21,3 +21,4 @@ catin<-function(){ #to see all categories avaiable to be used
       tempcostfile<-read.csv(file=tempcostaddress)
       return(levels(tempcostfile$category))
 }
+
