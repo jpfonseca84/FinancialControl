@@ -3,33 +3,43 @@ totalextract <- function(f.date.start = today(), #As "%Y %m %d"
                          f.date.stop = today(),  #As "%Y %m %d"
                          f.numofcat = NULL,
                          f.fileaddress = "C:\\Users\\jpfon\\Google Drive\\Pessoal\\Documentos\\FinancialControl\\totalcostsfile") {
-##Coherce f.dates as a Date class object in case it's a text
-      if (is.character(f.date.start)) {
+##Coherce f.dates as a Date class object
             f.date.start <- ymd(f.date.start)
-      }
-      if (is.character(f.date.stop)) {
             f.date.stop <- ymd(f.date.stop)
-      }
+            
 ##Input Error
       if (f.date.stop < f.date.start) {
             stop("Stop date prior to Start date. Please correct")
       }
-      
+  
+            
+                
 #define the dates -------------
-      day(f.date.start) <- 1#Define the initial start date to search
-      
-      if (month(f.date.stop) != 12) {
-            #proceeding if not december
-            month(f.date.stop) <- month(f.date.stop) + 1
-            day(f.date.stop) <- 1 #define it as 1
-            day(f.date.stop) <-
-                  day(f.date.stop) - 1#point it to monthend
-      }else{
-            year(f.date.stop) <- year(f.date.stop)+1
-            month(f.date.stop) <- 1
+
+            #start date
+            day(f.date.start) <- 1#Define the initial start date to search
+            month(f.date.start)<-month(f.date.start)-12
+            
+            #stop date
             day(f.date.stop) <- 1
+            month(f.date.stop) <-month(f.date.stop) + 1
             day(f.date.stop) <-day(f.date.stop) - 1#point it to monthend
-      }
+            
+            
+            #      day(f.date.start) <- 1#Define the initial start date to search
+#      
+##      if (month(f.date.stop) != 12) {
+ #           #proceeding if not december
+ #           month(f.date.stop) <- month(f.date.stop) + 1
+ #           day(f.date.stop) <- 1 #define it as 1
+ #           day(f.date.stop) <-
+ #                 day(f.date.stop) - 1#point it to monthend
+ #     }else{
+ #           year(f.date.stop) <- year(f.date.stop)+1
+ #           month(f.date.stop) <- 1
+ #           day(f.date.stop) <- 1
+ #           day(f.date.stop) <-day(f.date.stop) - 1#point it to monthend
+ #     }
       
 #ORGANIZE THE FILE----------------
       
@@ -63,7 +73,7 @@ totalextract <- function(f.date.start = today(), #As "%Y %m %d"
       if (nrow(tempframe) == 0) {
             stop("No information in the selected period")
       }
-#Return Answer ------------------
+#print the plot ------------------
       theplot <- barplot(values.to.print,
                          names.arg = names(values.to.print))
       legend("topright",
@@ -71,5 +81,6 @@ totalextract <- function(f.date.start = today(), #As "%Y %m %d"
                    paste("Start ", f.date.start),
                    paste("Stop ", f.date.stop)
              ))
-      return(invisible(theplot))
+      
+      return(data.frame(total=values.to.print))
 }
