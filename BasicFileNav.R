@@ -15,5 +15,9 @@ typesin<-function(f.category){
 placesin<-function(f.category){
       tempcostfile<-read.csv(file=tempcostaddress)
       return(levels(droplevels(tempcostfile$place[tempcostfile$category==f.category])))
-      
+}
+
+catin<-function(){ #to see all categories avaiable to be used
+      tempcostfile<-read.csv(file=tempcostaddress)
+      return(levels(tempcostfile$category))
 }
