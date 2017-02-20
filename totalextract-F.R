@@ -11,9 +11,6 @@ totalextract <- function(f.date.start = today(), #As "%Y %m %d"
       if (f.date.stop < f.date.start) {
             stop("Stop date prior to Start date. Please correct")
       }
-  
-            
-                
 #define the dates -------------
 
             #start date
@@ -32,7 +29,7 @@ totalextract <- function(f.date.start = today(), #As "%Y %m %d"
       tempframe <- read.csv(file = f.fileaddress)
       
       #turn negative values in positive
-      tempframe$value <- tempframe$value * -1
+      tempframe$value <- abs(as.numeric(tempframe$value))
       
       #Transform the date column in a date vector
       tempframe$date <- as.Date(tempframe$date)
@@ -61,7 +58,10 @@ totalextract <- function(f.date.start = today(), #As "%Y %m %d"
 #print the plot ------------------
       theplot <- barplot(values.to.print,
                          names.arg = names(values.to.print),
-                         col=1:length(levels(tempframe$category)))
+                         col=1:length(levels(tempframe$category)),
+                         ylab="Dollars",
+                         xlab="Category",
+                         main = "total spent by category")
       legend("topright",
              legend = c(
                    paste("Start ", f.date.start),
