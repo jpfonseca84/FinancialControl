@@ -68,7 +68,7 @@
 "education","Curso JP","-29","2016-10-01",NA
 "health","Farmacia","-38.95","2016-10-01",NA
 "auto","Financiamento carro","-338.86","2016-10-01",NA
-"auto","Gasolina","-27.68","2016-10-01",NA
+"auto","gas","-27.68","2016-10-01",NA
 "pets","Gatineos","-52.98","2016-10-01",NA
 "recreation","Google music","-14.99","2016-10-01",NA
 "recreation","Halloween","-25.4","2016-10-01",NA
@@ -91,7 +91,7 @@
 "house","Conta de luz","-45.59","2016-11-01",NA
 "education","Curso JP","-49","2016-11-01",NA
 "auto","Financiamento carro","-338.86","2016-11-01",NA
-"auto","Gasolina","-28.66","2016-11-01",NA
+"auto","gas","-28.66","2016-11-01",NA
 "recreation","Google music","-14.99","2016-11-01",NA
 "house","Internet - TV","-104.72","2016-11-01",NA
 "education","Livraria","-104.78","2016-11-01",NA
@@ -108,7 +108,7 @@
 "recreation","Cinema","-33.6","2016-12-01",NA
 "house","Conta de luz","-45.5","2016-12-01",NA
 "auto","Financiamento carro","-338.86","2016-12-01",NA
-"auto","Gasolina","-50.54","2016-12-01",NA
+"auto","gas","-50.54","2016-12-01",NA
 "recreation","Google music","-14.99","2016-12-01",NA
 "house","Internet - TV","-104.72","2016-12-01",NA
 "auto","Licenciamento carro","-32.54","2016-12-01",NA
