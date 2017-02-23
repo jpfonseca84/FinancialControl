@@ -15,7 +15,6 @@ totalextract <- function(f.date.start = today(), #As "%Y %m %d"
 
             #start date
             day(f.date.start) <- 1#Define the initial start date to search
-            month(f.date.start)<-month(f.date.start)-12
             
             #stop date
             day(f.date.stop) <- 1
