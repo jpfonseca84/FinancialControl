@@ -17,7 +17,6 @@ opencat<-function(f.category,
       
       #start date
       day(f.date.start) <- 1#Define the initial start date to search
-      month(f.date.start)<-month(f.date.start)-12
       
       #stop date
       day(f.date.stop) <- 1
@@ -38,6 +37,36 @@ opencat<-function(f.category,
       
       #create the specific tempframe for the answer
       tempframe <- tempframe[tempframe$date >= f.date.start&
+                                   tempframe$date<=f.date.stop&
                                    tempframe$category==f.category,]
+      
+      
+      #Prepare the output values
+      values.to.print <- tapply(tempframe$value,
+                                ymd(tempframe$date),
+                                sum)
+      
+      ####Return of error --------------------
+      if (nrow(tempframe) == 0) {
+            stop("No information in the selected period")
+      }
+      
+      #------------------
+      #return values
+      #print the plot ------------------
+      theplot <- barplot(values.to.print,
+                         names.arg = names(values.to.print),
+                         col=1:length(levels(tempframe$date)),
+                         ylab="Dollars",
+                         xlab="Month",
+                         main = "total spent by month")
+      
+      #return(values.to.print)
+      return(data.frame(Value=paste("$",values.to.print),
+                        row.names = names(values.to.print)))
+
+
+      
+      
       }
             
