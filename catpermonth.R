@@ -23,7 +23,7 @@ catbymonth<-function(f.category,
       tempframe <- read.csv(file = f.fileaddress)
       
       #turn negative values in positive
-      tempframe$value <- tempframe$value * -1
+      tempframe$value <- as.vector(tempframe$value)
       
       #Transform the date column in a date vector
       tempframe$date <- as.Date(tempframe$date)
