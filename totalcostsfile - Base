@@ -1,0 +1,123 @@
+"category","type","value","date"
+"house","Agua e esgoto",-106.72,2017-01-01
+"house","Aluguel",-1874,2017-01-01
+"purchases","Amazon",-125.52,2017-01-01
+"house","Celular JP",-56.57,2017-01-01
+"house","Conta de luz",-54.29,2017-01-01
+"health","Dentista",-644,2017-01-01
+"health","Farmacia",-20.93,2017-01-01
+"auto","Financiamento carro",-338.86,2017-01-01
+"pets","Gatineos",-24,2017-01-01
+"recreation","Google music",-14.99,2017-01-01
+"auto","Licenciamento carro",-79.76,2017-01-01
+"education","Livraria",-58.26,2017-01-01
+"house","Mercado",-373.53,2017-01-01
+"health","Oculos Erika e JP",-252.9,2017-01-01
+"others","Outros",-10.99,2017-01-01
+"auto","Parking",-8,2017-01-01
+"food","Refeicao na rua",-39.59,2017-01-01
+"others","saque",-80,2017-01-01
+"clothes","Roupa Erika",-111.35,2017-01-01
+"recreation","Saida a noite",-350.23,2017-01-01
+"auto","Seguro carro",-928,2017-01-01
+"auto","Uber - Lyft",-23.9,2017-01-01
+"house","Coisas para casa",-300,2016-05-01
+"house","Aluguel",-1874,2016-07-01
+"house","Coisas para casa",-597,2016-07-01
+"house","Mercado",-242.51,2016-07-01
+"others","Outros",-2,2016-07-01
+"food","Refeicao na rua",-18.84,2016-07-01
+"recreation","Saida a noite",-31,2016-07-01
+"house","Aluguel",-3748,2016-08-01
+"purchases","Amazon",-400.86,2016-08-01
+"recreation","Cinema",-34.42,2016-08-01
+"house","Coisas para casa",-91.53,2016-08-01
+"auto","Compra do carro",-3000,2016-08-01
+"auto","Compra do carro - confirmar",-2000,2016-08-01
+"house","Conta de luz",-191.25,2016-08-01
+"pets","Gatineos",-25.77,2016-08-01
+"house","Internet - TV",-115.27,2016-08-01
+"house","Mercado",-1131.57,2016-08-01
+"others","Outros",-20,2016-08-01
+"auto","Parking",-6.5,2016-08-01
+"food","Refeicao na rua",-409.95,2016-08-01
+"clothes","Roupa Erika",-79.87,2016-08-01
+"recreation","Saida a noite",-110.86,2016-08-01
+"house","Agua e esgoto",-25.09,2016-09-01
+"house","Aluguel",-1874,2016-09-01
+"purchases","Amazon",-871.4,2016-09-01
+"house","Coisas para casa",-33.37,2016-09-01
+"house","Conta de luz",-35.11,2016-09-01
+"health","Farmacia",-5.29,2016-09-01
+"auto","Financiamento carro",-506.34,2016-09-01
+"pets","Gatineos",-22.98,2016-09-01
+"house","Internet - TV",-104.72,2016-09-01
+"house","Mercado",-495.79,2016-09-01
+"others","Outros",-43.01,2016-09-01
+"auto","Pedagio",-10,2016-09-01
+"food","Refeicao na rua",-8.52,2016-09-01
+"clothes","Roupa Erika",-389.62,2016-09-01
+"auto","Seguro carro",-292.27,2016-09-01
+"travel","Viagem Key West e outros",-1154.67,2016-09-01
+"house","Agua e esgoto",-31.19,2016-10-01
+"house","Aluguel",-1929,2016-10-01
+"purchases","Amazon",-189.67,2016-10-01
+"house","Celular JP",-48.1,2016-10-01
+"recreation","Cinema",-23.16,2016-10-01
+"house","Conta de luz",-46.36,2016-10-01
+"education","Curso JP",-29,2016-10-01
+"health","Farmacia",-38.95,2016-10-01
+"auto","Financiamento carro",-338.86,2016-10-01
+"auto","Gasolina",-27.68,2016-10-01
+"pets","Gatineos",-52.98,2016-10-01
+"recreation","Google music",-14.99,2016-10-01
+"recreation","Halloween",-25.4,2016-10-01
+"house","Internet - TV",-104.72,2016-10-01
+"house","Mercado",-1009.21,2016-10-01
+"others","Outros",-1.8,2016-10-01
+"auto","Parking",-2.85,2016-10-01
+"auto","Pedagio",-30,2016-10-01
+"food","Refeicao na rua",-174.65,2016-10-01
+"clothes","Roupa Erika",-98,2016-10-01
+"clothes","Roupa JP",-272.13,2016-10-01
+"recreation","Saida a noite",-162.62,2016-10-01
+"auto","Seguro carro",-292.27,2016-10-01
+"auto","Uber - Lyft",-27.62,2016-10-01
+"house","Agua e esgoto",-38.43,2016-11-01
+"house","Aluguel",-1874,2016-11-01
+"purchases","Amazon",-76.32,2016-11-01
+"house","Celular JP",-56.57,2016-11-01
+"house","Coisas para casa",-38.16,2016-11-01
+"house","Conta de luz",-45.59,2016-11-01
+"education","Curso JP",-49,2016-11-01
+"auto","Financiamento carro",-338.86,2016-11-01
+"auto","Gasolina",-28.66,2016-11-01
+"recreation","Google music",-14.99,2016-11-01
+"house","Internet - TV",-104.72,2016-11-01
+"education","Livraria",-104.78,2016-11-01
+"house","Mercado",-943.44,2016-11-01
+"food","Refeicao na rua",-37.6,2016-11-01
+"clothes","Roupa Erika",-160.4,2016-11-01
+"clothes","Roupa JP",-233.62,2016-11-01
+"recreation","Saida a noite",-323.41,2016-11-01
+"auto","Seguro carro",-292.27,2016-11-01
+"auto","Uber - Lyft",-59.21,2016-11-01
+"house","Aluguel",-1874,2016-12-01
+"purchases","Amazon",-635.4,2016-12-01
+"house","Celular JP",-56.57,2016-12-01
+"recreation","Cinema",-33.6,2016-12-01
+"house","Conta de luz",-45.5,2016-12-01
+"auto","Financiamento carro",-338.86,2016-12-01
+"auto","Gasolina",-50.54,2016-12-01
+"recreation","Google music",-14.99,2016-12-01
+"house","Internet - TV",-104.72,2016-12-01
+"auto","Licenciamento carro",-32.54,2016-12-01
+"education","Livraria",-60.3,2016-12-01
+"house","Mercado",-571.94,2016-12-01
+"others","Outros",-12.56,2016-12-01
+"food","Refeicao na rua",-222.66,2016-12-01
+"others","saque",-300,2016-12-01
+"clothes","Roupa Erika",-183.29,2016-12-01
+"recreation","Saida a noite",-226.28,2016-12-01
+"auto","Seguro carro",-292.27,2016-12-01
+"auto","Uber - Lyft",-5,2016-12-01
