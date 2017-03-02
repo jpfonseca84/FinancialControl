@@ -1,0 +1,132 @@
+"category","type","value","date","place"
+"house","water","-106.72","2017-01-01",NA
+"house","Rental","-1874","2017-01-01",NA
+"purchases","Amazon","-125.52","2017-01-01",NA
+"house","Mobile JP","-56.57","2017-01-01",NA
+"house","Conta de luz","-54.29","2017-01-01",NA
+"health","Dentista","-644","2017-01-01",NA
+"health","Farmacia","-20.93","2017-01-01",NA
+"auto","Financiamento carro","-338.86","2017-01-01",NA
+"pets","Gatineos","-24","2017-01-01",NA
+"recreation","Google music","-14.99","2017-01-01",NA
+"auto","Licenciamento carro","-79.76","2017-01-01",NA
+"education","Livraria","-58.26","2017-01-01",NA
+"house","Mercado","-373.53","2017-01-01",NA
+"health","Oculos Erika e JP","-252.9","2017-01-01",NA
+"others","Outros","-10.99","2017-01-01",NA
+"auto","Parking","-8","2017-01-01",NA
+"food","Refeicao na rua","-39.59","2017-01-01",NA
+"others","saque","-80","2017-01-01",NA
+"clothes","Roupa Erika","-111.35","2017-01-01",NA
+"recreation","Saida a noite","-350.23","2017-01-01",NA
+"auto","Seguro carro","-928","2017-01-01",NA
+"auto","Uber - Lyft","-23.9","2017-01-01",NA
+"house","Coisas para casa","-300","2016-05-01",NA
+"house","Rental","-1874","2016-07-01",NA
+"house","Coisas para casa","-597","2016-07-01",NA
+"house","Mercado","-242.51","2016-07-01",NA
+"others","Outros","-2","2016-07-01",NA
+"food","Refeicao na rua","-18.84","2016-07-01",NA
+"recreation","Saida a noite","-31","2016-07-01",NA
+"house","Rental","-3748","2016-08-01",NA
+"purchases","Amazon","-400.86","2016-08-01",NA
+"recreation","Movies","-34.42","2016-08-01",NA
+"house","Coisas para casa","-91.53","2016-08-01",NA
+"auto","Compra do carro","-3000","2016-08-01",NA
+"auto","Compra do carro - confirmar","-2000","2016-08-01",NA
+"house","Conta de luz","-191.25","2016-08-01",NA
+"pets","Gatineos","-25.77","2016-08-01",NA
+"house","Internet - TV","-115.27","2016-08-01",NA
+"house","Mercado","-1131.57","2016-08-01",NA
+"others","Outros","-20","2016-08-01",NA
+"auto","Parking","-6.5","2016-08-01",NA
+"food","Refeicao na rua","-409.95","2016-08-01",NA
+"clothes","Roupa Erika","-79.87","2016-08-01",NA
+"recreation","Saida a noite","-110.86","2016-08-01",NA
+"house","water","-25.09","2016-09-01",NA
+"house","Rental","-1874","2016-09-01",NA
+"purchases","Amazon","-871.4","2016-09-01",NA
+"house","Coisas para casa","-33.37","2016-09-01",NA
+"house","Conta de luz","-35.11","2016-09-01",NA
+"health","Farmacia","-5.29","2016-09-01",NA
+"auto","Financiamento carro","-506.34","2016-09-01",NA
+"pets","Gatineos","-22.98","2016-09-01",NA
+"house","Internet - TV","-104.72","2016-09-01",NA
+"house","Mercado","-495.79","2016-09-01",NA
+"others","Outros","-43.01","2016-09-01",NA
+"auto","Pedagio","-10","2016-09-01",NA
+"food","Refeicao na rua","-8.52","2016-09-01",NA
+"clothes","Roupa Erika","-389.62","2016-09-01",NA
+"auto","Seguro carro","-292.27","2016-09-01",NA
+"travel","Viagem Key West e outros","-1154.67","2016-09-01",NA
+"house","water","-31.19","2016-10-01",NA
+"house","Rental","-1929","2016-10-01",NA
+"purchases","Amazon","-189.67","2016-10-01",NA
+"house","Mobile JP","-48.1","2016-10-01",NA
+"recreation","Movies","-23.16","2016-10-01",NA
+"house","Conta de luz","-46.36","2016-10-01",NA
+"education","Curso JP","-29","2016-10-01",NA
+"health","Farmacia","-38.95","2016-10-01",NA
+"auto","Financiamento carro","-338.86","2016-10-01",NA
+"auto","gas","-27.68","2016-10-01",NA
+"pets","Gatineos","-52.98","2016-10-01",NA
+"recreation","Google music","-14.99","2016-10-01",NA
+"recreation","Halloween","-25.4","2016-10-01",NA
+"house","Internet - TV","-104.72","2016-10-01",NA
+"house","Mercado","-1009.21","2016-10-01",NA
+"others","Outros","-1.8","2016-10-01",NA
+"auto","Parking","-2.85","2016-10-01",NA
+"auto","Pedagio","-30","2016-10-01",NA
+"food","Refeicao na rua","-174.65","2016-10-01",NA
+"clothes","Roupa Erika","-98","2016-10-01",NA
+"clothes","Roupa JP","-272.13","2016-10-01",NA
+"recreation","Saida a noite","-162.62","2016-10-01",NA
+"auto","Seguro carro","-292.27","2016-10-01",NA
+"auto","Uber - Lyft","-27.62","2016-10-01",NA
+"house","water","-38.43","2016-11-01",NA
+"house","Rental","-1874","2016-11-01",NA
+"purchases","Amazon","-76.32","2016-11-01",NA
+"house","Mobile JP","-56.57","2016-11-01",NA
+"house","Coisas para casa","-38.16","2016-11-01",NA
+"house","Conta de luz","-45.59","2016-11-01",NA
+"education","Curso JP","-49","2016-11-01",NA
+"auto","Financiamento carro","-338.86","2016-11-01",NA
+"auto","gas","-28.66","2016-11-01",NA
+"recreation","Google music","-14.99","2016-11-01",NA
+"house","Internet - TV","-104.72","2016-11-01",NA
+"education","Livraria","-104.78","2016-11-01",NA
+"house","Mercado","-943.44","2016-11-01",NA
+"food","Refeicao na rua","-37.6","2016-11-01",NA
+"clothes","Roupa Erika","-160.4","2016-11-01",NA
+"clothes","Roupa JP","-233.62","2016-11-01",NA
+"recreation","Saida a noite","-323.41","2016-11-01",NA
+"auto","Seguro carro","-292.27","2016-11-01",NA
+"auto","Uber - Lyft","-59.21","2016-11-01",NA
+"house","Rental","-1874","2016-12-01",NA
+"purchases","Amazon","-635.4","2016-12-01",NA
+"house","Mobile JP","-56.57","2016-12-01",NA
+"recreation","Movies","-33.6","2016-12-01",NA
+"house","Conta de luz","-45.5","2016-12-01",NA
+"auto","Financiamento carro","-338.86","2016-12-01",NA
+"auto","gas","-50.54","2016-12-01",NA
+"recreation","Google music","-14.99","2016-12-01",NA
+"house","Internet - TV","-104.72","2016-12-01",NA
+"auto","Licenciamento carro","-32.54","2016-12-01",NA
+"education","Livraria","-60.3","2016-12-01",NA
+"house","Mercado","-571.94","2016-12-01",NA
+"others","Outros","-12.56","2016-12-01",NA
+"food","Refeicao na rua","-222.66","2016-12-01",NA
+"others","saque","-300","2016-12-01",NA
+"clothes","Roupa Erika","-183.29","2016-12-01",NA
+"recreation","Saida a noite","-226.28","2016-12-01",NA
+"auto","Seguro carro","-292.27","2016-12-01",NA
+"auto","Uber - Lyft","-5","2016-12-01",NA
+"house","Mercado","-119.18","2017-02-15","Publix"
+"recreation","Passeio","-30","2017-02-19","Morikami"
+"food","refeição na rua","-38","2017-02-19","Salsa Fiesta"
+"auto","gas","-27","2017-02-19","Speedway"
+"recreation","Nightlife","-70","2017-02-16","Tarpon bend"
+"house"," mercado"," - 76.97","2017-02-18","publix"
+"other","withdraw"," - 20","2017-02-18"," NA"
+"recreation","passeio","-36","2017-02-20","Vizcaya"
+"food","eat out","-60","2017-02-20","Cheesecake Factory"
