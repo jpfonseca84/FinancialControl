@@ -1,24 +1,23 @@
-add.expense <-
+#Function to add manually the expenses
+add.manual <-
       function(f.category,
                f.type,
                f.value,
                f.place = NA,
-               f.date = as.character(Sys.Date()),
-               f.fileaddress ="C:\\Users\\jpfon\\Google Drive\\Pessoal\\Documentos\\FinancialControl\\totalcostsfile"){
-
+               f.date = as.character(Sys.Date())){
+              
             #Merging original data with input data
-            tempframeA <-read.csv(file = f.fileaddress)
+            tempframeA <- data
             tempframeB <- cbind(category=f.category, 
                                 type=f.type, 
                                 value=f.value, 
                                 date=f.date, 
                                 place=f.place)
-            tempframe <- rbind(tempframeA, tempframeB)
+            data <<- rbind(tempframeA, tempframeB)
             
             #Saving the new complete data set in the file location
-            write.csv(tempframe, 
-                      file = f.fileaddress,
-                      row.names = F)
+            save(data,
+                 file = "totalcostsdata.rda")
             
             #Return the new data set inputted
             return(tempframeB)
