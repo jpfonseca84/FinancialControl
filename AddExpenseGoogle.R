@@ -3,6 +3,7 @@
 
 #pulling info from the google file
 
+#Need to review the wholecode below as it is a copy from the CSV variant
 add.expense.G <- function() {
       #read the new and old costs file
       tempdata <- read.csv(file = "NewCostsData", header = T)
