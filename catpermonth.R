@@ -22,8 +22,8 @@ catbymonth<-function(f.category,
       #obtain the .csv Totalcostfiles
       tempframe <- read.csv(file = f.fileaddress)
       
-      #turn negative values in positive
-      tempframe$value <- as.vector(tempframe$value)
+      #turn negative amounts in positive
+      tempframe$amount <- as.vector(tempframe$amount)
       
       #Transform the date column in a date vector
       tempframe$date <- as.Date(tempframe$date)
@@ -40,14 +40,14 @@ catbymonth<-function(f.category,
             f.numofcat <- length(levels(tempframe$category))
       }
       
-      #The vector of values to be printed
-      values.to.print <- sort(tapply(tempframe$value,
+      #The vector of amounts to be printed
+      amounts.to.print <- sort(tapply(tempframe$amount,
                                      tempframe$category,
                                      sum),
                               decreasing = T)[1:f.numofcat]
       
       ################## ORGANIZE ABOVE
       
-      #values to plot
+      #amounts to plot
       tapply()
 }

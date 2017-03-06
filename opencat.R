@@ -29,8 +29,8 @@ opencat<-function(f.category,
       #obtain the .csv Totalcostfiles
       tempframe <- read.csv(file = f.fileaddress)
       
-      #turn negative values in positive
-      tempframe$value <- abs(as.numeric(tempframe$value))
+      #turn negative amounts in positive
+      tempframe$amount <- abs(as.numeric(tempframe$amount))
       
       #Transform the date column in a date vector
       tempframe$date <- as.Date(tempframe$date)
@@ -41,8 +41,8 @@ opencat<-function(f.category,
                                    tempframe$category==f.category,]
       
       
-      #Prepare the output values
-      values.to.print <- tapply(tempframe$value,
+      #Prepare the output amounts
+      amounts.to.print <- tapply(tempframe$amount,
                                 ymd(tempframe$date),
                                 sum)
       
@@ -52,18 +52,18 @@ opencat<-function(f.category,
       }
       
       #------------------
-      #return values
+      #return amounts
       #print the plot ------------------
-      theplot <- barplot(values.to.print,
-                         names.arg = names(values.to.print),
+      theplot <- barplot(amounts.to.print,
+                         names.arg = names(amounts.to.print),
                          col=1:length(levels(tempframe$date)),
                          ylab="Dollars",
                          xlab="Month",
                          main = "total spent by month")
       
-      #return(values.to.print)
-      return(data.frame(Value=paste("$",values.to.print),
-                        row.names = names(values.to.print)))
+      #return(amounts.to.print)
+      return(data.frame(amount=paste("$",amounts.to.print),
+                        row.names = names(amounts.to.print)))
 
 
       
