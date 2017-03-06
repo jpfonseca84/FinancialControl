@@ -1,0 +1,129 @@
+"category","type","value","date","place","details"
+"auto","car insurance","-928","2017-01-01","Geico",NA
+"auto","car insurance","-292.27","2016-09-01","Geico",NA
+"auto","car insurance","-292.27","2016-10-01","Geico",NA
+"auto","car insurance","-292.27","2016-11-01","Geico",NA
+"auto","car insurance","-292.27","2016-12-01","Geico",NA
+"auto","car purchase","-3000","2016-08-01",NA,NA
+"auto","car purcahse ? confirm","-2000","2016-08-01",NA,NA
+"auto","car financing","-338.86","2017-01-01",NA,NA
+"auto","car financing","-506.34","2016-09-01",NA,NA
+"auto","car financing","-338.86","2016-10-01",NA,NA
+"auto","car financing","-338.86","2016-11-01",NA,NA
+"auto","car financing","-338.86","2016-12-01",NA,NA
+"auto","gas","-27.68","2016-10-01",NA,NA
+"auto","gas","-28.66","2016-11-01",NA,NA
+"auto","gas","-50.54","2016-12-01",NA,NA
+"auto","gas","-27","2017-02-19","Speedway",NA
+"auto","Car licensing","-79.76","2017-01-01",NA,NA
+"auto","Car licensing","-32.54","2016-12-01",NA,NA
+"auto","Parking","-8","2017-01-01",NA,NA
+"auto","Parking","-6.5","2016-08-01",NA,NA
+"auto","Parking","-2.85","2016-10-01",NA,NA
+"auto","toll","-10","2016-09-01",NA,NA
+"auto","toll","-30","2016-10-01",NA,NA
+"auto","Uber - Lyft","-23.9","2017-01-01","Uber",NA
+"auto","Uber - Lyft","-27.62","2016-10-01","Uber",NA
+"auto","Uber - Lyft","-59.21","2016-11-01","Uber",NA
+"auto","Uber - Lyft","-5","2016-12-01","lyft",NA
+"education","JP course","-29","2016-10-01",NA,NA
+"education","JP course","-49","2016-11-01",NA,NA
+"education","library","-58.26","2017-01-01",NA,NA
+"education","library","-104.78","2016-11-01",NA,NA
+"education","library","-60.3","2016-12-01",NA,NA
+"food","eat out","-60","2017-02-20","Cheesecake Factory",NA
+"food","eat out","-38","2017-02-19","Salsa Fiesta",NA
+"food","eat out","-39.59","2017-01-01",NA,NA
+"food","eat out","-18.84","2016-07-01",NA,NA
+"food","eat out","-409.95","2016-08-01",NA,NA
+"food","eat out","-8.52","2016-09-01",NA,NA
+"food","eat out","-174.65","2016-10-01",NA,NA
+"food","eat out","-37.6","2016-11-01",NA,NA
+"food","eat out","-222.66","2016-12-01",NA,NA
+"health","dentist","-644","2017-01-01",NA,NA
+"health","pharmacy","-20.93","2017-01-01",NA,NA
+"health","pharmacy","-5.29","2016-09-01",NA,NA
+"health","pharmacy","-38.95","2016-10-01",NA,NA
+"health","eyeglasses","-252.9","2017-01-01",NA,NA
+"house","house purchases","-300","2016-05-01",NA,NA
+"house","house purchases","-597","2016-07-01",NA,NA
+"house","house purchases","-91.53","2016-08-01",NA,NA
+"house","house purchases","-33.37","2016-09-01",NA,NA
+"house","house purchases","-38.16","2016-11-01",NA,NA
+"house","electricity","-54.29","2017-01-01","FPL",NA
+"house","electricity","-191.25","2016-08-01","FPL",NA
+"house","electricity","-35.11","2016-09-01","FPL",NA
+"house","electricity","-46.36","2016-10-01","FPL",NA
+"house","electricity","-45.59","2016-11-01","FPL",NA
+"house","electricity","-45.5","2016-12-01","FPL",NA
+"house","Internet - TV","-115.27","2016-08-01","Comcast",NA
+"house","Internet - TV","-104.72","2016-09-01","Comcast",NA
+"house","Internet - TV","-104.72","2016-10-01","Comcast",NA
+"house","Internet - TV","-104.72","2016-11-01","Comcast",NA
+"house","Internet - TV","-104.72","2016-12-01","Comcast",NA
+"house","market"," - 76.97","2017-02-18","publix",NA
+"house","market","-373.53","2017-01-01",NA,NA
+"house","market","-242.51","2016-07-01",NA,NA
+"house","market","-1131.57","2016-08-01",NA,NA
+"house","market","-495.79","2016-09-01",NA,NA
+"house","market","-1009.21","2016-10-01",NA,NA
+"house","market","-943.44","2016-11-01",NA,NA
+"house","market","-571.94","2016-12-01",NA,NA
+"house","market","-119.18","2017-02-15","Publix",NA
+"house","Mobile JP","-56.57","2017-01-01","AT&T",NA
+"house","Mobile JP","-48.1","2016-10-01","AT&T",NA
+"house","Mobile JP","-56.57","2016-11-01","AT&T",NA
+"house","Mobile JP","-56.57","2016-12-01","AT&T",NA
+"house","Rental","-1874","2017-01-01","Vu New River",NA
+"house","Rental","-1874","2016-07-01","Vu New River",NA
+"house","Rental","-3748","2016-08-01","Vu New River",NA
+"house","Rental","-1874","2016-09-01","Vu New River",NA
+"house","Rental","-1929","2016-10-01","Vu New River",NA
+"house","Rental","-1874","2016-11-01","Vu New River",NA
+"house","Rental","-1874","2016-12-01","Vu New River",NA
+"house","water","-106.72","2017-01-01",NA,NA
+"house","water","-25.09","2016-09-01",NA,NA
+"house","water","-31.19","2016-10-01",NA,NA
+"house","water","-38.43","2016-11-01",NA,NA
+"other","other","-25.4","2016-10-01",NA,NA
+"other","other","-10.99","2017-01-01",NA,NA
+"other","other","-2","2016-07-01",NA,NA
+"other","other","-20","2016-08-01",NA,NA
+"other","other","-43.01","2016-09-01",NA,NA
+"other","other","-1.8","2016-10-01",NA,NA
+"other","other","-12.56","2016-12-01",NA,NA
+"other","withdraw","-80","2017-01-01",NA,NA
+"other","withdraw","-300","2016-12-01",NA,NA
+"other","withdraw","-20","2017-02-18",NA,NA
+"pets","pet purchases","-24","2017-01-01",NA,NA
+"pets","pet purchases","-25.77","2016-08-01",NA,NA
+"pets","pet purchases","-22.98","2016-09-01",NA,NA
+"pets","pet purchases","-52.98","2016-10-01",NA,NA
+"purchases","Amazon","-125.52","2017-01-01","Amazon",NA
+"purchases","Amazon","-400.86","2016-08-01","Amazon",NA
+"purchases","Amazon","-871.4","2016-09-01","Amazon",NA
+"purchases","Amazon","-189.67","2016-10-01","Amazon",NA
+"purchases","Amazon","-76.32","2016-11-01","Amazon",NA
+"purchases","Amazon","-635.4","2016-12-01","Amazon",NA
+"purchases","erika clothes","-111.35","2017-01-01",NA,NA
+"purchases","erika clothes","-79.87","2016-08-01",NA,NA
+"purchases","erika clothes","-389.62","2016-09-01",NA,NA
+"purchases","erika clothes","-98","2016-10-01",NA,NA
+"purchases","erika clothes","-160.4","2016-11-01",NA,NA
+"purchases","erika clothes","-183.29","2016-12-01",NA,NA
+"purchases","jp clothes","-272.13","2016-10-01",NA,NA
+"purchases","jp clothes","-233.62","2016-11-01",NA,NA
+"recreation","Google music","-14.99","2017-01-01","Google",NA
+"recreation","Google music","-14.99","2016-10-01","Google",NA
+"recreation","Google music","-14.99","2016-11-01","Google",NA
+"recreation","Google music","-14.99","2016-12-01","Google",NA
+"recreation","Movies","-34.42","2016-08-01",NA,NA
+"recreation","Movies","-23.16","2016-10-01",NA,NA
+"recreation","Movies","-33.6","2016-12-01",NA,NA
+"recreation","Nightlife","-70","2017-02-16","Tarpon bend",NA
+"recreation","Nightlife","-350.23","2017-01-01",NA,NA
+"recreation","Nightlife","-31","2016-07-01",NA,NA
+"recreation","Nightlife","-110.86","2016-08-01",NA,NA
+"recreation","Nightlife","-162.62","2016-10-01",NA,NA
+"recreation","Nightlife","-323.41","2016-11-01",NA,NA
+"recreation","Nightlife","-226.28","2016-12-01",NA,NA
