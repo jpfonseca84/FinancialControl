@@ -1,8 +1,8 @@
 #Sum of expenses per category in the period
-totalextract <- function(f.date.start = today(), #As "%Y %m %d"
+plot.total <- function(f.date.start = today(), #As "%Y %m %d"
                          f.date.stop = today(),  #As "%Y %m %d"
-                         f.numofcat = NULL,
-                         f.fileaddress = "C:\\Users\\jpfon\\Google Drive\\Pessoal\\Documentos\\FinancialControl\\totalcostsfile") {
+                         f.numofcat = NULL)
+      {
 ##Coherce f.dates as a Date class object ----
             f.date.start <- ymd(f.date.start)
             f.date.stop <- ymd(f.date.stop)
@@ -24,8 +24,9 @@ totalextract <- function(f.date.start = today(), #As "%Y %m %d"
       
 #ORGANIZE THE FILE----------------
       
-      #obtain the .csv Totalcostfiles
-      tempframe <- read.csv(file = f.fileaddress)
+      #load data
+      load("totalcostsdata.rda")
+      tempframe <- data
       
       #turn negative amounts in positive
       tempframe$amount <- abs(as.numeric(tempframe$amount))

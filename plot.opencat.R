@@ -1,9 +1,8 @@
 #opens a category to define what was spend inside it
 
-opencat<-function(f.category,
+plot.opencat<-function(f.category,
                   f.date.start=Sys.Date(),
-                  f.date.stop=Sys.Date(),
-                  f.fileaddress = "C:\\Users\\jpfon\\Google Drive\\Pessoal\\Documentos\\FinancialControl\\totalcostsfile") {
+                  f.date.stop=Sys.Date()){
 
       ##Coherce f.dates as a Date class object ----
       f.date.start <- ymd(f.date.start)
@@ -26,11 +25,16 @@ opencat<-function(f.category,
       
       #ORGANIZE THE FILE----------------
       
-      #obtain the .csv Totalcostfiles
-      tempframe <- read.csv(file = f.fileaddress)
+      #obtain the file
+      tempframe <- data
       
+<<<<<<< HEAD:opencat.R
       #turn negative amounts in positive
       tempframe$amount <- abs(as.numeric(tempframe$amount))
+=======
+      #turn negative values in positive
+      tempframe$value <- as.numeric(tempframe$value)
+>>>>>>> refs/remotes/origin/master:plot.opencat.R
       
       #Transform the date column in a date vector
       tempframe$date <- as.Date(tempframe$date)
@@ -45,6 +49,8 @@ opencat<-function(f.category,
       amounts.to.print <- tapply(tempframe$amount,
                                 ymd(tempframe$date),
                                 sum)
+      #sort values to print to be from newer to older
+      values.to.print<-values.to.print[length(values.to.print):1]
       
       ####Return of error --------------------
       if (nrow(tempframe) == 0) {
@@ -54,12 +60,19 @@ opencat<-function(f.category,
       #------------------
       #return amounts
       #print the plot ------------------
+<<<<<<< HEAD:opencat.R
       theplot <- barplot(amounts.to.print,
                          names.arg = names(amounts.to.print),
                          col=1:length(levels(tempframe$date)),
+=======
+      theplot <- barplot(values.to.print,
+                         names.arg = as.yearmon(as.Date(rownames(values.to.print))),
+                         col=1:length(values.to.print),
+>>>>>>> refs/remotes/origin/master:plot.opencat.R
                          ylab="Dollars",
                          xlab="Month",
-                         main = "total spent by month")
+                         main = paste("Total spent by month in",
+                                      as.character(f.category)))
       
       #return(amounts.to.print)
       return(data.frame(amount=paste("$",amounts.to.print),
