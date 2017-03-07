@@ -2,7 +2,7 @@
 add.manual <-
       function(f.category,
                f.type,
-               f.value,
+               f.amount,
                f.place = NA,
                f.date = as.character(Sys.Date())){
               
@@ -10,7 +10,7 @@ add.manual <-
             tempframeA <- data
             tempframeB <- cbind(category=f.category, 
                                 type=f.type, 
-                                value=f.value, 
+                                amount=f.amount, 
                                 date=f.date, 
                                 place=f.place)
             data <<- rbind(tempframeA, tempframeB)

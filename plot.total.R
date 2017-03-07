@@ -28,8 +28,8 @@ plot.total <- function(f.date.start = today(), #As "%Y %m %d"
       load("totalcostsdata.rda")
       tempframe <- data
       
-      #turn negative values in positive
-      tempframe$value <- abs(as.numeric(tempframe$value))
+      #turn negative amounts in positive
+      tempframe$amount <- abs(as.numeric(tempframe$amount))
       
       #Transform the date column in a date vector
       tempframe$date <- as.Date(tempframe$date)
@@ -46,8 +46,8 @@ plot.total <- function(f.date.start = today(), #As "%Y %m %d"
             f.numofcat <- length(levels(tempframe$category))
       }
 
-#The vector of values to be printed ----
-      values.to.print <- sort(tapply(tempframe$value,
+#The vector of amounts to be printed ----
+      amounts.to.print <- sort(tapply(tempframe$amount,
                                      tempframe$category,
                                      sum),
                               decreasing = T)[1:f.numofcat]
@@ -56,8 +56,8 @@ plot.total <- function(f.date.start = today(), #As "%Y %m %d"
             stop("No information in the selected period")
       }
 #print the plot ------------------
-      theplot <- barplot(values.to.print,
-                         names.arg = names(values.to.print),
+      theplot <- barplot(amounts.to.print,
+                         names.arg = names(amounts.to.print),
                          col=1:length(levels(tempframe$category)),
                          ylab="Dollars",
                          xlab="Category",
@@ -67,5 +67,5 @@ plot.total <- function(f.date.start = today(), #As "%Y %m %d"
                    paste("Start ", f.date.start),
                    paste("Stop ", f.date.stop)))
       
-      return(data.frame(total=values.to.print))
+      return(data.frame(total=amounts.to.print))
 }
