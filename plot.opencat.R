@@ -28,8 +28,13 @@ plot.opencat<-function(f.category,
       #obtain the file
       tempframe <- data
       
+<<<<<<< HEAD:opencat.R
+      #turn negative amounts in positive
+      tempframe$amount <- abs(as.numeric(tempframe$amount))
+=======
       #turn negative values in positive
       tempframe$value <- as.numeric(tempframe$value)
+>>>>>>> refs/remotes/origin/master:plot.opencat.R
       
       #Transform the date column in a date vector
       tempframe$date <- as.Date(tempframe$date)
@@ -40,8 +45,8 @@ plot.opencat<-function(f.category,
                                    tempframe$category==f.category,]
       
       
-      #Prepare the output values
-      values.to.print <- tapply(tempframe$value,
+      #Prepare the output amounts
+      amounts.to.print <- tapply(tempframe$amount,
                                 ymd(tempframe$date),
                                 sum)
       #sort values to print to be from newer to older
@@ -53,19 +58,25 @@ plot.opencat<-function(f.category,
       }
       
       #------------------
-      #return values
+      #return amounts
       #print the plot ------------------
+<<<<<<< HEAD:opencat.R
+      theplot <- barplot(amounts.to.print,
+                         names.arg = names(amounts.to.print),
+                         col=1:length(levels(tempframe$date)),
+=======
       theplot <- barplot(values.to.print,
                          names.arg = as.yearmon(as.Date(rownames(values.to.print))),
                          col=1:length(values.to.print),
+>>>>>>> refs/remotes/origin/master:plot.opencat.R
                          ylab="Dollars",
                          xlab="Month",
                          main = paste("Total spent by month in",
                                       as.character(f.category)))
       
-      #return(values.to.print)
-      return(data.frame(Value=paste("$",values.to.print),
-                        row.names = names(values.to.print)))
+      #return(amounts.to.print)
+      return(data.frame(amount=paste("$",amounts.to.print),
+                        row.names = names(amounts.to.print)))
 
 
       
